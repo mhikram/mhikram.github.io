@@ -8,7 +8,7 @@
 #+REVEAL_THEME: nightSerif
 #+REVEAL_HLEVEL: 999
 #+REVEAL_MARGIN: .1em
-#+REVEAL_ROOT: file:./reveal.js
+#+REVEAL_ROOT:https://cdn.jsdelivr.net/npm/reveal.js
 #+title: Fintech and the energy sector Presentation
 
 * Fintech and the energy sector: a perfect marriage, or an odd couple?
