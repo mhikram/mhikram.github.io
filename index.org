@@ -1,0 +1,87 @@
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:t reveal_control:t
+#+OPTIONS: reveal_mathjax:t reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_title_slide:nil
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+#+OPTIONS: tasks:nil
+#+REVEAL_TRANS: none
+#+REVEAL_THEME: nightSerif
+#+REVEAL_HLEVEL: 999
+#+REVEAL_MARGIN: .1em
+#+REVEAL_ROOT: file:./reveal.js
+#+title: Fintech and the energy sector Presentation
+
+* Fintech and the energy sector: a perfect marriage, or an odd couple?
+    :PROPERTIES:
+    :reveal_background: ./fintech_energy_presentation/cover.png
+    :reveal_background_trans: slide
+    :END:
+* Objective of the talk today
+#+ATTR_REVEAL: :frag (appear)
+- How should we be thinking about Fintech and the Energy Sector?
+- Where to pay attention?
+- Where /*_not_*/ to pay attention?
+- Learn from all of you!
+* Competitive Trading Bilateral Contract Market (CTBCM)
+    :PROPERTIES:
+    :reveal_background: ./fintech_energy_presentation/ctbcm.png
+    :reveal_background_trans: slide
+    :END:
+* Lindy effect
+#+ATTR_REVEAL: :frag (appear)
+The future life expectancy of some non-perishable things like a technology or an idea is proportional to their current age, so that every additional period of survival implies a longer remaining life expectancy.
+* Financial(Law & Accounting) + Technology (Communications and Data Recording) = FinTech
+* Software ate Energy Tech
+    :PROPERTIES:
+    :reveal_background: ./fintech_energy_presentation/sw_vs_cleantech.png
+    :reveal_background_trans: slide
+    :END:
+* FMCG/SaaS like Finance
+ Win on Customer Experience & Customer Percieved Value
+#+ATTR_REVEAL: :frag (appear)
+- Payments & Transaction APIs
+- Retail Investing & Asset Financing
+- Retail Risk Management & Insurance
+- Digitization of Compliance
+* Why is Fintech Important?
+- Inclusion
+- Transparency
+- Risk Analytics
+- Digitization of Compliance
+
+* The End User is King
+    :PROPERTIES:
+    :reveal_background: ./fintech_energy_presentation/business_models.png
+    :reveal_background_trans: slide
+    :END:
+** Business Model Financing
+*** Aggregators - Distributed Generation
+*** P2P Trading
+*** Energy as a Service
+** Retail Financing
+*** Pay-as-you-go
+*** Community Ownership
+
+
+* Asset Management and Insurance
+** Renewable Asset Insurance
+- Solar: Energetic Insurance
+- Wind: REsurety
+** Utilities and Asset Management (OG EaaS)
+- Enertiv
+- Powerhouse Dynamics
+* Capital Markets
+** Subnational Pooled Financing - Mutual Credit and Risk Sharing
+- Blockchain and Governance
+** Green Bonds
+- Green Sukuk Indonedsia
+** Impact Investing
+*** ESG Compliance - Green Asset Wallet
+** kWH Analytics
+* Energy as a service
+* Energy Trading (The data science solution)
+** Spot Fixing - High Volitality
+- Predict it and trade the margins
+** Managing LMP
+
+https://rubygarage.org/blog/types-of-fintech-software#:~:text=Digital%20lending%20is%20one%20of,credit%20unions%20to%20get%20loans.&text=Kabbage%20and%20Borrowell%20are%20great%20examples%20of%20FinTech%20lenders.
