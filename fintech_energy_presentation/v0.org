@@ -32,7 +32,7 @@
 * Lindy effect
 #+ATTR_REVEAL: :frag (appear)
 The future life expectancy of some non-perishable things like a technology or an idea is proportional to their current age, so that every additional period of survival implies a longer remaining life expectancy.
-** Financial (Law & Accounting) + Technology (Communications and Data Recording) = FinTech
+* Financial (Law & Accounting) + Technology (Communications and Data Recording) = FinTech
 * .
     :PROPERTIES:
     :reveal_background: ./fintech_energy_presentation/sw_vs_cleantech.png
@@ -88,3 +88,19 @@ The future life expectancy of some non-perishable things like a technology or an
     :reveal_background: ./fintech_energy_presentation/buyerrm.png
     :reveal_background_trans: slide
     :END:
+* Appendix
+* Capital Markets
+** Sub-national Pooled Financing - Mutual Credit and Risk Sharing
+- Blockchain and Governance
+** Green Bonds
+- Green Sukuk Indonesia
+** Impact Investing
+*** ESG Compliance - Green Asset Wallet
+** kWH Analytics
+* Energy as a service
+* Energy Trading (The data science solution)
+** Spot Fixing - High Volitality
+- Predict it and trade the margins
+** Managing LMP
+* References
+- [[https://rubygarage.org/blog/types-of-fintech-software#:~:text=Digital%20lending%20is%20one%20of,credit%20unions%20to%20get%20loans.&text=Kabbage%20and%20Borrowell%20are%20great%20examples%20of%20FinTech%20lenders][What is fintech]]
