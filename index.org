@@ -32,7 +32,9 @@
 * Lindy effect
 #+ATTR_REVEAL: :frag (appear)
 The future life expectancy of some non-perishable things like a technology or an idea is proportional to their current age, so that every additional period of survival implies a longer remaining life expectancy.
-** Financial (Law & Accounting) + Technology (Communications and Data Recording) = FinTech
+* Fintech
+- Financial (Law & Accounting)
+- Technology (Communications and Data Recording)
 * .
     :PROPERTIES:
     :reveal_background: ./fintech_energy_presentation/sw_vs_cleantech.png
