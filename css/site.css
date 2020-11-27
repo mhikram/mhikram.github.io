@@ -103,8 +103,8 @@ pre {
 
 pre.example, pre.src, code {
   font-family: monospace, monospace;
-  border: 1px solid #AAA;
-  background-color: #444;
+  border: 0.5px solid #444;
+  background-color: #333;
   font-size: 85%;
 }
 
