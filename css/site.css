@@ -13,7 +13,6 @@ body {
   grid-gap: 1em;
   align-content: space-evenly;
   line-height: 1.5;
-  /*color: #566b78;*/
   color: white;
   background-color: #111111;
   border-top: 5px solid #3498db;
@@ -24,6 +23,7 @@ body {
 
 header#preamble, main#content, footer#postamble {
   padding-left: 2em;
+  padding-right: 2em;
 }
 
 header {
