@@ -14,8 +14,8 @@ body {
   align-content: space-evenly;
   line-height: 1.5;
   /*color: #566b78;*/
-  color: ##222222;
-  background-color: white;
+  color: white;
+  background-color: #111111;
   border-top: 5px solid #3498db;
   width: 90%;
   font-family: "Open Sans", Impact;
@@ -36,7 +36,7 @@ header a {
 
 main {
   grid-area: main;
-  border-left: 1px solid #ddd;
+  border-left: 1px solid #202020;
   /* font: 400 16px/22px "open sans", sans-serif; */
 }
 
@@ -45,7 +45,7 @@ footer {
 
   font-size: 80%;
   color: #666;
-  border-top: 4px solid #EEE;
+  border-top: 4px solid #333;
   overflow: hidden;
 }
 
@@ -59,7 +59,7 @@ footer {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #181818;
+  color: #EEE;
   font-family: "Raleway", Impact, sans-serif;
   font-weight: 600;
 }
@@ -79,7 +79,7 @@ h2 {
 h1,
 h2,
 strong {
-  color: #333;
+  color: #EEE;
 }
 
 h1.title {
@@ -98,12 +98,12 @@ h2 {
 
 pre {
   padding: 1em;
-  border-left: 2px solid #69c;
+  border-left: 2px solid #AAA;
 }
 
 pre.example, pre.src, code {
   font-family: monospace, monospace;
-  border: 1px solid #ddd;
+  border: 1px solid #AAA;
   background-color: #eef;
   font-size: 85%;
 }
@@ -149,7 +149,7 @@ section.post-list li .timestamp:after {
 }
 
 #bio {
-  border-top: 1px dotted #ddd;
+  border-top: 1px dotted #333;
 }
 
 #social {
@@ -161,13 +161,13 @@ hr {
   margin-bottom: 1.5rem;
   border-width: 0;
   border-top-width: 0px;
-  border-top: 1px solid #E1E1E1;
+  border-top: 1px solid #333;
 }
 
 blockquote {
   background: #f9f9f9;
 
-  border-left: 10px solid #ccc;
+  border-left: 10px solid #333;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
