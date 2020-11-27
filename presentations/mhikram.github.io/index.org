@@ -1,0 +1,90 @@
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:t reveal_control:t
+#+OPTIONS: reveal_mathjax:t reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+#+OPTIONS: tasks:nil
+#+REVEAL_TRANS: none
+#+REVEAL_THEME: nightSerif
+#+REVEAL_HLEVEL: 999
+#+REVEAL_MARGIN: .1em
+#+REVEAL_TITLE_SLIDE:
+#+REVEAL_ROOT:../../reveal.js
+#+title: Fintech and the energy sector Presentation
+
+* Fintech and the energy sector: a perfect marriage, or an odd couple?
+    :PROPERTIES:
+    :reveal_background: ./fintech_energy_presentation/cover.png
+    :reveal_background_trans: slide
+    :END:
+* Objectives
+#+ATTR_REVEAL: :frag (appear)
+- How should we be thinking about Fintech and the Energy Sector?
+- Where to pay attention?
+- Where /*_not_*/ to pay attention?
+- Learn from all of you!
+* Competitive Trading Bilateral Contract Market (CTBCM)
+    :PROPERTIES:
+    :reveal_background: ./fintech_energy_presentation/ctbcm.png
+    :reveal_background_trans: slide
+    :END:
+* Lindy effect
+#+ATTR_REVEAL: :frag (appear)
+The future life expectancy of some non-perishable things like a technology or an idea is proportional to their current age, so that every additional period of survival implies a longer remaining life expectancy.
+* Fintech
+- Financial (Law & Accounting)
+- Technology (Communications and Data Recording)
+* .
+    :PROPERTIES:
+    :reveal_background: ./fintech_energy_presentation/sw_vs_cleantech.png
+    :reveal_background_trans: slide
+    :END:
+* Make finance FMCG/SaaS
+ Win on Customer Experience & Customer Perceived Value
+#+ATTR_REVEAL: :frag (appear)
+- Payments & Transaction APIs
+- Retail Investing & Asset Financing
+- Retail Risk Management & Insurance
+- Digitization of Compliance
+
+
+
+*** .
+    :PROPERTIES:
+    :reveal_background: ./fintech_energy_presentation/business_models.png
+    :reveal_background_trans: slide
+    :END:
+** Business Model Financing
+*** .
+    :PROPERTIES:
+    :reveal_background: ./fintech_energy_presentation/agg.png
+    :reveal_background_trans: slide
+    :END:
+*** .
+    :PROPERTIES:
+    :reveal_background: ./fintech_energy_presentation/p2p.png
+    :reveal_background_trans: slide
+    :END:
+*** Energy as a Service
+    :PROPERTIES:
+    :reveal_background: ./fintech_energy_presentation/eaas.png
+    :reveal_background_trans: slide
+    :END:
+** Retail Financing
+*** Pay-as-you-go
+    :PROPERTIES:
+    :reveal_background: ./fintech_energy_presentation/paygo.png
+    :reveal_background_trans: slide
+    :END:
+*** Community Ownership
+
+* Asset Management and Insurance
+*** .
+    :PROPERTIES:
+    :reveal_background: ./fintech_energy_presentation/sellerrm.png
+    :reveal_background_trans: slide
+    :END:
+*** .
+    :PROPERTIES:
+    :reveal_background: ./fintech_energy_presentation/buyerrm.png
+    :reveal_background_trans: slide
+    :END:
