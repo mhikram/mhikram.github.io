@@ -16,14 +16,13 @@ body {
   color: white;
   background-color: #111111;
   border-top: 5px solid #3498db;
-  width: 85%;
+  width: 80%;
   font-family: "Open Sans", Impact;
   font-size: large;
 }
 
 header#preamble, main#content, footer#postamble {
   padding-left: 2em;
-  padding-right: 2em;
 }
 
 header {
