@@ -21,8 +21,11 @@ body {
   font-size: large;
 }
 
-header#preamble, main#content, footer#postamble {
-  padding-left: 2em;
+/*header#preamble, main#content, footer#postamble {
+}*/
+
+main#content, footer#postamble {
+    padding-left: 2em
 }
 
 header {
