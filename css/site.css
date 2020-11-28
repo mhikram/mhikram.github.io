@@ -1,8 +1,8 @@
 /* https://jgthms.com/web-design-in-4-minutes */
 /* @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500'; */
-@import 'https://fonts.googleapis.com/css?family=Raleway:400,300,600';
+@import 'https://fonts.googleapis.com/css?family=Raleway:400,300,600,800';
 @import'https://fonts.googleapis.com/css?family=Playfair+Display:400,300,600';
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,300,600';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600';
 body {
   margin: auto;
   display: grid;
@@ -19,6 +19,7 @@ body {
   width: 80%;
   font-family: "Open Sans", Impact;
   font-size: large;
+  font-weight: 200
   word-wrap: break-word;
 }
 
@@ -51,7 +52,8 @@ footer {
   font-size: 80%;
   color: #666;
   border-top: 4px solid #333;
-  overflow: hidden;
+  word-wrap: break-word;
+
 }
 
 @media (min-width: 500px) {
@@ -66,7 +68,7 @@ footer {
 h1, h2, h3, h4, h5, h6 {
   color: #EEE;
   font-family: "Raleway", Impact, sans-serif;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .post-list.outline-2 h2 {
@@ -78,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  margin-top: 1em;
+  margin-top: 0.5 em;
 }
 h3 {
   font-size: 90%;
@@ -95,7 +97,7 @@ h1.title {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: large;
   line-height: 40px;
 }
 
@@ -111,15 +113,15 @@ pre {
 
 pre.example, pre.src, code {
   font-family: monospace, monospace;
-  border: 0.5px solid #444;
+  /*border: 0.5px solid #444;*/
   background-color: #333;
   font-size: 85%;
 }
 
 pre.example, pre.src {
-  overflow-x: auto;
-  width: auto;
-  padding: 0 1em;
+  overflow-x: scroll;
+  width: 95%;
+  /*padding: 0 1em;*/
 }
 
 a {
@@ -144,7 +146,7 @@ aside h1, aside h2, aside h3 {
 .timestamp {
   font-family: 'Lucida Console', 'Andale Mono', monospace;
   color: #aaa;
-  padding-right: 5px;
+  padding-right: 0.1em;
   font-size: 14px;
 }
 
@@ -178,7 +180,7 @@ blockquote {
 
   border-left: 10px solid #333;
   margin: 1.5em 10px;
-  padding: 0.5em 10px;
+  padding: 0.5em 0.5em;
   quotes: "\201C""\201D""\2018""\2019";
 }
 
@@ -222,7 +224,7 @@ main img {
 
 #stalker i {
   font-size: 28px;
-  margin-right: 5px;
+  margin-right: 0.1em;
 }
 
 /* https://github.com/fniessen/org-html-themes/blob/master/styles/readtheorg/css/htmlize.css */
