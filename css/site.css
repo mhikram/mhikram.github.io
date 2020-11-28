@@ -40,7 +40,7 @@ header a {
 
 main {
   grid-area: main;
-  border-left: 1px solid #202020;
+  border-left: 0px solid #202020;
   /* font: 400 16px/22px "open sans", sans-serif; */
 }
 
