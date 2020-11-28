@@ -17,8 +17,8 @@ body {
   background-color: #111111;
   border-top: 5px solid #3498db;
   width: 80%;
-  font-family: "Open Sans", sans;
-  font-size: medium;
+  font-family: "Open Sans", Impact;
+  font-size: large;
   font-weight: 200
   word-wrap: break-word;
 }
@@ -108,7 +108,7 @@ h2 {
 
 pre {
   padding: 1em;
-  border-left: 0px solid #AAA;
+  border-left: 2px solid #AAA;
 }
 
 pre.example, pre.src, code {
@@ -162,11 +162,6 @@ section.post-list li .timestamp:after {
   border-top: 1px dotted #333;
 }
 
-#site-links {
-  font-size: 75%;
-  text-align: center;
-  margin-bottom: 1em
-}
 #social {
   font-size: 13px;
   text-align: center;

@@ -281,7 +281,7 @@
          :base-extension "org"
          :publishing-directory "./public"
          :publishing-function 'duncan/org-rss-publish-to-rss
-         :html-link-home "http://duncan.codes/"
+         :html-link-home "https://mhikram.github.io/"
          :html-link-use-abs-url t)
    (list "site"
          :base-directory "./"
