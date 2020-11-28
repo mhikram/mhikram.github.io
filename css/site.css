@@ -4,7 +4,7 @@
 @import'https://fonts.googleapis.com/css?family=Playfair+Display:400,300,600';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:400,300,600';
 body {
-  margin: 0 auto;
+  margin: auto;
   display: grid;
   grid-template-areas: 
     "header"
@@ -19,6 +19,7 @@ body {
   width: 80%;
   font-family: "Open Sans", Impact;
   font-size: large;
+  word-wrap: break-word;
 }
 
 /*header#preamble, main#content, footer#postamble {
@@ -116,8 +117,8 @@ pre.example, pre.src, code {
 }
 
 pre.example, pre.src {
-  overflow-x: scroll;
-  width: 80ch;
+  overflow-x: auto;
+  width: auto;
   padding: 0 1em;
 }
 
