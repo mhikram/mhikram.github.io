@@ -20,19 +20,20 @@
 <meta description='The blog of Muhammad Hamza Ikram'/>
 <link rel='alternate' type='application+rss/xml' title='The blog of Muhammad Hamza Ikram' href='posts/rss.xml'/>
 <link rel='stylesheet' href='css/index.css?v=947370da49ce6a70746b3cb8a4de44c929ca0b1e3d6ca60c89603f567a841a26'/>
-<link rel="stylesheet" href="css/site.css?v=a79b75784328c94a65612ef9c30ff717d7913a5df4c1dd781714072db3c4ab82" type="text/css">
+<link rel="stylesheet" href="css/site.css?v=262b4b4a24de664a6f021427b579f084dc51074dd5a861012a561b56052ee126" type="text/css">
 </head>
 <body>
 <header id="preamble" class="status">
 <aside>
-  <h1>Hi.</h1>
+  <h3>Hi.</h2>
   <a href="/">
-    <img src="https://i.pinimg.com/originals/82/ae/66/82ae66694902e5c22cf4b8743fef5748.jpg" class="avatar" alt="My photo" style="width:100px;height:100px;"/>
+      <!--<img src="https://i.pinimg.com/originals/82/ae/66/82ae66694902e5c22cf4b8743fef5748.jpg" class="avatar" alt="My photo" style="width:100px;height:100px;"/>-->
+    <img src="https://pbs.twimg.com/profile_images/1196750892244094977/bL4tApPC_400x400.jpg" class="avatar" alt="My photo" style="width:100px;height:100px;"/>
   </a>
-  <h2>I'm <a href="/">Muhammad Hamza Ikram</a></h2>
+  <h3>I'm <a href="/">Muhammad Hamza Ikram</a></h2>
   <div id="bio">
-    <!--<small><p>Fixing.Tinkering.Thinking.</p></small>
-    <small><p>Helping improve small business access to finance at <a href="https://www.sabhi.org">Sabhi.</a> Building cool stuff at <a href="https://www.thisishoola.com">Hoola.</a></p></small>-->
+      <h3>Fixing.Tinkering.Thinking.</h2>
+    <!--<small><p>Helping improve small business access to finance at <a href="https://www.sabhi.org">Sabhi.</a> Building cool stuff at <a href="https://www.thisishoola.com">Hoola.</a></p></small>-->
   </div>
   <div id="social">
     Follow me:
@@ -54,17 +55,11 @@
 <header>
 <h1 class="title">My homepage with org-mode</h1>
 </header>
-<figure id="org5a273db">
-<a href="https://github.com/dmacvicar/site.org/actions?query=workflow%3A%22Build+and+publish+to+pages%22"><object type="image/svg+xml" data="https://github.com/dmacvicar/site.org/workflows/Build%20and%20publish%20to%20pages/badge.svg" class="org-svg">
-Sorry, your browser does not support SVG.</object></a>
-
-</figure>
-
 <section id="outline-container-org561f352" class="outline-2">
 <h2 id="org561f352">Introduction</h2>
 <div class="outline-text-2" id="text-org561f352">
 <p>
-This setup based on <a href="https://orgmode.org">org-mode</a> aims to replace my previous <a href="https://jekyllrb.com">Jekyll</a> setup used to publish my site.
+This setup based on <a href="https://orgmode.org">org-mode</a> to publish my site.
 </p>
 </div>
 </section>
@@ -73,7 +68,11 @@ This setup based on <a href="https://orgmode.org">org-mode</a> aims to replace m
 <h2 id="orgb68a088">Implementation</h2>
 <div class="outline-text-2" id="text-orgb68a088">
 <p>
-For details about the implementation see <a href="posts/2019-09-03-migrating-from-jekyll-to-org/index.html">the introductory post</a> and the <a href="https://github.com/dmacvicar/site.org"><i aria-hidden='true' class='fa fa-github'></i> Source</a>.
+This version is inspired by <a href="https://duncan.codes/posts/2019-09-03-migrating-from-jekyll-to-org/index.html">Duncan Code</a>.
+</p>
+
+<p>
+I will be migrating to a more minimalist setup (hopefully) soon.
 </p>
 </div>
 </section>
@@ -84,14 +83,14 @@ For details about the implementation see <a href="posts/2019-09-03-migrating-fro
 <ul class="org-ul">
 <li>Posts go into <code>posts/</code>
 Preferably in their own subdirectory together with all their assets (self-contained)</li>
-<li>Presentations go in <code>presentations/</code>, as they are rendered (for now) with the <a href="https://github.com/fniessen/org-html-themes">readtheorg</a> theme</li>
+<li>Presentations go in <code>presentations/</code>, as they are rendered (for now) with the <a href="https://github.com/hakimel/reveal.js/">revea.js</a>.</li>
 </ul>
 
 <p>
 To generate:
 </p>
 
-<pre class="example" id="orgf4063d8">
+<pre class="example" id="org60fc2aa">
 $ make
 </pre>
 
@@ -213,7 +212,7 @@ The content of the site, Copyright (©) 2014-2019 Muhammad Hamza Ikram.
 <footer id="postamble" class="status">
 <p class='disclaimer'>The postings on this site are my own and don't necessarily represent my employer’s positions, strategies or opinions.</p>
 
-<p>Last updated 27 Nov. 2020. Built with <a href="https://www.gnu.org/software/emacs/">Emacs</a> 26.3 (<a href="https://orgmode.org">Org</a> mode 9.4). <a href="/README.html">Details</a>.</p>
+<p>Last updated 28 Nov. 2020. Built with <a href="https://www.gnu.org/software/emacs/">Emacs</a> 26.3 (<a href="https://orgmode.org">Org</a> mode 9.4). <a href="/README.html">Details</a>.</p>
 </footer>
 </body>
 </html>
