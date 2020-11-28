@@ -10,18 +10,18 @@
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Blog</title>
-  <atom:link href="http://duncan.codes/rss.xml" rel="self" type="application/rss+xml" />
-  <link>http://duncan.codes/</link>
+  <atom:link href="https://mhikram.github.io/rss.xml" rel="self" type="application/rss+xml" />
+  <link>https://mhikram.github.io/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Sat, 28 Nov 2020 20:36:02 +0500</pubDate>
-  <lastBuildDate>Sat, 28 Nov 2020 20:36:02 +0500</lastBuildDate>
+  <pubDate>Sun, 29 Nov 2020 02:11:13 +0500</pubDate>
+  <lastBuildDate>Sun, 29 Nov 2020 02:11:13 +0500</lastBuildDate>
   <generator>Emacs 26.3 Org-mode 9.4</generator>
   <webMaster>mhikram1@gmail.com (Muhammad Hamza Ikram)</webMaster>
   <image>
     <url>https://orgmode.org/img/org-mode-unicorn-logo.png</url>
     <title>Blog</title>
-    <link>http://duncan.codes/</link>
+    <link>https://mhikram.github.io/</link>
   </image>
 
 
