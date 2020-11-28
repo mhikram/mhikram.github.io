@@ -229,7 +229,7 @@
          :publishing-function 'duncan/org-html-publish-post-to-html
          :section-numbers nil
          :with-toc nil
-         :html-preamble nil
+         :html-preamble t
          :html-preamble-format (duncan--pre/postamble-format 'preamble)
          :html-postamble t
          :html-postamble-format (duncan--pre/postamble-format 'postamble)
