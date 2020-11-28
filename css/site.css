@@ -120,7 +120,7 @@ pre.example, pre.src, code {
 
 pre.example, pre.src {
   overflow-x: scroll;
-  width: 95%;
+  width: 90%;
   /*padding: 0 1em;*/
 }
 
