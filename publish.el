@@ -368,7 +368,6 @@
            ("faImage" "\\faImage" nil "<i aria-hidden='true' class='fa fa-image'></i>" "" "" ""))))
         (org-html-htmlize-output-type       'css)
         (org-plantuml-jar-path (-first 'file-exists-p
-                                       ; openSUSE, Ubuntu
                                        '("/usr/share/java/plantuml.jar" "/usr/share/plantuml/plantuml.jar")))
         (org-confirm-babel-evaluate
          (lambda (lang body)
