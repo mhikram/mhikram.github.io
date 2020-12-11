@@ -365,6 +365,7 @@
            ("faCode" "\\faCode" nil "<i aria-hidden='true' class='fa fa-code'></i>" "" "" "")
            ("faGithub" "\\faGithub" nil "<i aria-hidden='true' class='fa fa-github'></i>" "" "" "")
            ("faGraduationCap" "\\faGraduationCap" nil "<i aria-hidden='true' class='fa fa-graduation-cap'></i>" "" "" "")
+           ("faEye" "\\faGraduationCap" nil "<i aria-hidden='true' class='fa fa-eye'></i>" "" "" "")
            ("faImage" "\\faImage" nil "<i aria-hidden='true' class='fa fa-image'></i>" "" "" ""))))
         (org-html-htmlize-output-type       'css)
         (org-plantuml-jar-path (-first 'file-exists-p
