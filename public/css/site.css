@@ -1,238 +1,231 @@
-/* https://jgthms.com/web-design-in-4-minutes */
-/* @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500'; */
-@import 'https://fonts.googleapis.com/css?family=Raleway:400,300,600,800';
-@import'https://fonts.googleapis.com/css?family=Playfair+Display:400,300,600';
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600';
-body {
-  margin: auto;
-  display: grid;
-  grid-template-areas: 
-    "header"
-    "main"
-    "footer";
-  grid-gap: 1em;
-  align-content: space-evenly;
-  line-height: 1.5;
-  color: #EEE;
-  background-color: #111111;
-  border-top: 5px solid #3498db;
-  width: 80%;
-  font-family: "Open Sans", sans;
-  font-size: medium;
-  font-weight: 200
-  word-wrap: break-word;
-}
+@import'https://fonts.googleapis.com/css?family=Slabo+27px:400';
+@import'https://fonts.googleapis.com/css?family=Limelight';
+@import'https://fonts.googleapis.com/css?family=Inter:400';
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400&display=swap');
+@import'https://fonts.googleapis.com/css?family=Montserrat:700';
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #eee;
+    background-color: #191919;
+    font-family: "Inter", sans;
+ }
 
-/*header#preamble, main#content, footer#postamble {
-}*/
+html {
+    overflow-y: scroll;
+    height: 100%;
+    font: 100%/1.5 sans-serif;
+    word-wrap: break-word;
+    margin: 0 auto;
+    padding: 1.5em;
+ }
 
-main#content, footer#postamble {
-    padding-left: 1em;
-    padding-right: 1em
-}
+@media (min-width: 768px) {
+    html {
+        font-size: 105%;
+        max-width: 60%;
+ } }
 
-header {
-  grid-area: header;
-  font-family: "Raleway", Impact, serif;
-}
-
-header a {
-  font-weight: 600;
-}
-
-main {
-  grid-area: main;
-  border-left: 0px solid #202020;
-  /* font: 400 16px/22px "open sans", sans-serif; */
-}
-
-footer {
-  grid-area: footer;
-
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #333;
-  word-wrap: break-word;
-
-}
-
-@media (min-width: 500px) {
-  body {
-    grid-template-columns: 1fr 3fr;
-    grid-template-areas:
-      "header main"
-      "header footer";
-  }
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #EEE;
-  font-family: "Raleway", Impact, sans-serif;
-  font-weight: 800;
-}
-
-.post-list.outline-2 h2 {
-  font-size: 1.0rem;
-}
-
-.post-list ul {
-  padding-left: 0;
-}
-
-h2 {
-  margin-top: 0.5 em;
-}
-h3 {
-  font-size: 90%;
-}
-
-h1,
-h2,
-strong {
-  color: #EEE;
-}
-
-h1.title {
-  font-weight: 800;
-  font-size: xx-large;
-}
-
-h1 {
-  font-size: large;
-  line-height: 40px;
-}
-
-h2 {
-    font-size: 24px;
-    line-height: 30px;
-}
-
-pre {
-  padding: 1em;
-  border-left: 0px solid #AAA;
-}
-
-pre.example, pre.src, code {
-  font-family: monospace, monospace;
-  /*border: 0.5px solid #444;*/
-  background-color: #333;
-  font-size: 85%;
-}
-
-pre.example, pre.src {
-  overflow-x: scroll;
-  width: 90%;
-  /*padding: 0 1em;*/
+h1, h2, h3, h4 {
+    word-wrap: break-word;
+    margin: 2.0rem 0 0.5rem 0;
+    color: #eee;
+    font-family: "Montserrat", sans;
 }
 
 a {
-  /* color: #e81c4f; */
-  color: #3498db;
-}
+    color: #eee;
+    text-decoration: none;
+ }
+a:hover, a:focus, a:active {
+    text-decoration: underline;
+ }
 
-aside h1, aside h2, aside h3 {
-  text-align: center;
-}
+p {
+    margin: 1em 0;
+    line-height: 1.5;
+ }
+p code {
+    background-color: #333;
+    padding: 0.05em 0.2em;
+    border: 1px solid #444;
+ }
 
-#preamble img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+ol, ul {
+    margin: 1em;
+ }
+ol li ol, ol li ul, ul li ol, ul li ul {
+    margin: 0 2em;
+ }
+ol li p, ul li p {
+    margin: 0;
+ }
 
-.avatar {
-  -webkit-border-radius: 50%;
-}
+dl {
+    font-family: monospace, monospace;
+ }
+dl dt {
+    font-weight: bold;
+ }
+dl dd {
+    margin: -1em 0 1em 1em;
+ }
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em;
+ }
+
+blockquote {
+    padding-left: 1em;
+    font-style: italic;
+    border-left: solid 1px #3498db;
+ }
 
 .timestamp {
-  font-family: 'Lucida Console', 'Andale Mono', monospace;
+  font-family: "Inter", monospace;
   color: #aaa;
   padding-right: 0.1em;
-  font-size: 14px;
+  font-size: 80%;
 }
-
-section.post-list ul {
-  list-style-type: none;
-}
-
 section.post-list li .timestamp:after {
   content: " »";
 }
+section.post-list ul {
+  list-style-type: none;
+    margin: 0em;
+}
+table {
+    font-size: 1rem;
+    text-align: left;
+    caption-side: bottom;
+    margin-bottom: 2em;
+ }
+table * {
+    border: none;
+ }
+table thead, table tr {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+ }
+table tr:nth-child(even) {
+    background-color: rgba(200, 200, 200, 0.2);
+ }
+table tbody {
+    display: block;
+    max-height: 70vh;
+    overflow-y: auto;
+ }
+table td, table th {
+    padding: 0.25em;
+ }
 
-#bio {
-  border-top: 1px dotted #333;
+table, .highlight > pre, pre.example {
+    max-height: 70vh;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: auto;
+    font-size: 0.85rem;
+    font-family: monospace, monospace;
+    border: 1px dashed #3498db;
 }
 
-#site-links {
+h1.title {
+    margin: 2.0rem 0 0.0rem 0;
+}
+
+.subtitle {
+    font-weight: normal;
+    font-size: 0.75em;
+    color: #666;
+}
+
+.tags {
+    margin-top: -1.5rem;
+    padding-bottom: 1.5em;
+}
+.tags li {
+    display: inline;
+    margin-right: 0.5em;
+}
+
+figure {
+    margin: 1em 0;
+}
+figure figcaption {
+    font-family: monospace, monospace;
+    font-size: 0.75em;
+    text-align: center;
+    color: grey;
+}
+
+.footnote-definition sup {
+    margin-left: -1.5em;
+    float: left;
+}
+
+.footnote-definition .footnote-body {
+    margin: 1em 0;
+    padding: 0 1em;
+    border-top: 1px dashed #333;
+}
+.footnote-definition .footnote-body p:only-child {
+    margin: 0.2em 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+}
+header a + a {
+    margin-left: 1rem;
+}
+
+.posts {
+    margin: 0;
+    list-style: none;
+}
+.posts .post a {
+    display: flex;
+    padding: 0.5em 0;
+    color: #eee;
+}
+.posts .post a:hover, .posts .post a:focus, .posts .post a:active {
+    text-decoration: none;
+}
+.posts .post date {
+    font-family: monospace, monospace;
+    font-size: 0.8rem;
+    vertical-align: middle;
+    padding-right: 2rem;
+    color: #aaa;
+}
+
+footer {
   font-size: 75%;
-  text-align: center;
-  margin-bottom: 1em
-}
-#social {
-  font-size: 13px;
-  text-align: center;
-}
-
-hr {
-  margin-top: 1rem;
-  margin-bottom: 1.5rem;
-  border-width: 0;
-  border-top-width: 0px;
+  margin: 3rem auto;
+  color: #333;
   border-top: 1px solid #333;
+  word-wrap: break-word;
+
 }
-
-blockquote {
-  background: #444;
-
-  border-left: 10px solid #333;
-  margin: 1.5em 10px;
-  padding: 0.5em 0.5em;
-  quotes: "\201C""\201D""\2018""\2019";
+.alignleft {
+	float: left;
 }
-
-blockquote p {
-  display: inline;
+.alignright {
+	float: right;
 }
-
-blockquote::before {
-  color: #ccc;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-}
-
-.subtitle, figcaption {
-  color: #aaa;
-  margin: 0 0 10px 0;
-}
-
-figcaption {
-  font-size: 0.7em;
-}
-
-.figure-number {
-  visibility: hidden;
-}
-
-main img {
-  outline: 0;
-  max-width: 100%;
-  height: auto;
-}
-
-main img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#stalker i {
-  font-size: 28px;
-  margin-right: 0.1em;
-}
-
 /* https://github.com/fniessen/org-html-themes/blob/master/styles/readtheorg/css/htmlize.css */
 .org-bold { /* bold */ font-weight: bold; }
 .org-bold-italic { /* bold-italic */ font-weight: bold; font-style: italic; }
