@@ -27,7 +27,7 @@ html {
 @media (min-width: 768px) {
     html {
         font-size: 105%;
-        max-width: 50%;
+        max-width: 44em;
  } }
 
 h1, h2, h3, h4 {
