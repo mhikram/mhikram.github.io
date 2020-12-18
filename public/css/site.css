@@ -49,9 +49,10 @@ p {
     margin: 1em 0;
     line-height: 1.5;
  }
+
 .subtitle {
     font-weight: normal;
-    font-size: 0.75em;
+    font-size: 1.0;
     color: #666;
 }
 p code {
@@ -90,7 +91,7 @@ img {
 blockquote {
     padding-left: 1em;
     font-style: italic;
-    border-left: solid 1px #888;
+    border-left: solid 2px #888;
  }
 
 .timestamp {
@@ -139,10 +140,12 @@ table, .highlight > pre, pre.example {
     overflow: auto;
     font-size: 0.85rem;
     font-family: monospace, monospace;
-    border: 1px dashed #3498db;
+    border: 1px dashed #444;
 }
 
 h1.title {
+    line-height:1.25em;
+    font-size: 250%;
     margin: 2.0rem 0 0.0rem 0;
 }
 
@@ -181,7 +184,7 @@ figure figcaption {
 }
 
 header {
-    display: flex;
+    display: block;
     justify-content: space-between;
 }
 
