@@ -1,16 +1,18 @@
 @import'https://fonts.googleapis.com/css?family=Slabo+27px:400';
+@import'https://fonts.googleapis.com/css?family=Tinos:400';
 @import'https://fonts.googleapis.com/css?family=Limelight';
 @import'https://fonts.googleapis.com/css?family=Inter:400';
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400&display=swap');
 @import'https://fonts.googleapis.com/css?family=Montserrat:700';
+@import'https://fonts.googleapis.com/css?family=Noto+Serif+JP:300,400';
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     color: #eee;
     background-color: #111111;
-    font-family: "Inter", sans;
+    font-family: "Open Sans", sans;
  }
 
 html {
@@ -25,14 +27,14 @@ html {
 @media (min-width: 768px) {
     html {
         font-size: 105%;
-        max-width: 60%;
+        max-width: 50%;
  } }
 
 h1, h2, h3, h4 {
     word-wrap: break-word;
     margin: 2.0rem 0 0.5rem 0;
     color: #eee;
-    font-family: "Montserrat", sans;
+    font-family: "Noto Serif JP", sans;
 }
 
 a {
@@ -47,6 +49,11 @@ p {
     margin: 1em 0;
     line-height: 1.5;
  }
+.subtitle {
+    font-weight: normal;
+    font-size: 0.75em;
+    color: #666;
+}
 p code {
     background-color: #333;
     padding: 0.05em 0.2em;
@@ -83,7 +90,7 @@ img {
 blockquote {
     padding-left: 1em;
     font-style: italic;
-    border-left: solid 1px #3498db;
+    border-left: solid 1px #888;
  }
 
 .timestamp {
@@ -139,11 +146,6 @@ h1.title {
     margin: 2.0rem 0 0.0rem 0;
 }
 
-.subtitle {
-    font-weight: normal;
-    font-size: 0.75em;
-    color: #666;
-}
 
 .tags {
     margin-top: -1.5rem;
@@ -190,6 +192,8 @@ header nav {
 }
 header a + a {
     margin-left: 1rem;
+    font-family: "Noto Serif JP", serif;
+    font-weight: bold;
 }
 
 .posts {
