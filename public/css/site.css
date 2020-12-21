@@ -34,7 +34,7 @@ h1, h2, h3, h4 {
     word-wrap: break-word;
     margin: 2.0rem 0 0.5rem 0;
     color: #eee;
-    font-family: "Noto Serif JP", sans;
+    font-family: "Montserrat", sans;
 }
 
 a {
@@ -195,12 +195,12 @@ header nav {
 }
 header a {
     margin-left: 0rem;
-    font-family: "Noto Serif JP", serif;
+    font-family: "Montserrat", serif;
     font-weight: bold;
 }
 header a + a {
     margin-left: 1rem;
-    font-family: "Noto Serif JP", serif;
+    font-family: "Montserrat", serif;
     font-weight: bold;
 }
 
