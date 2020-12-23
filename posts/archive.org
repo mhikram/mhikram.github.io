@@ -1,7 +1,7 @@
 #+TITLE: Blog
 
 * Archive
-
+- <2020-12-13 Sun>  [[file:math_self_learning/index.org][(Un)learning math]]
 #+BEGIN_EXPORT html
 <a href='rss.xml'><i class='fa fa-rss'></i></a>
 #+END_EXPORT

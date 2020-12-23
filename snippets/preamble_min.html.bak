@@ -1,0 +1,33 @@
+<aside>
+<div class=\"header\">
+    <a href=\"https://mhikram.github.io/\">{mhi}</a>
+    <a href=\"https://mhikram.github.io/posts/posts.html\">blog</a>
+    <a href=\"https://mhikram.github.io/ABOUTME.html\">about</a>
+    <a title="mhikram on Github" href="https://github.com/mhikram">
+    <i class="fa fa-github-square"></i>
+    </a>
+    <a title="m_hamza_ikram on Twitter" href="https://twitter.com/m_hamza_ikram">
+    <i class="fa fa-twitter-square"></i>
+    </a>
+    </a>
+    <a title="RSS feed" id="atom" href="posts/rss.xml">
+    <i class="fa fa-rss-square"></i>
+    </a>
+</div>
+</aside>
+
+<!--<header class="header">
+    <div class="header-brand">
+      <a href="/" title="Muhammad Hamza Ikram">{ mhi }</a>
+    </div>
+    <nav class="header-nav">
+      <div class="header-nav-item">
+        <a href="/posts/posts.html" title="Blog">blog</a>
+      </div>
+      <div class="header-nav-item">
+        <a href="/ABOUTME.html" title="about me">self</a>
+      </div>
+    </nav>
+    <div class="clearfix"></div>
+  </div>
+</header>-->

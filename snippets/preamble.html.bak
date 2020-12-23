@@ -1,0 +1,31 @@
+<aside>
+  <h3>Hi.</h3>
+  <a href="/">
+    <img src="https://pbs.twimg.com/profile_images/1196750892244094977/bL4tApPC_400x400.jpg" class="avatar" alt="My photo" style="width:100px;height:100px;"/>
+  </a>
+  <h3>I'm <a href="/">Muhammad Hamza Ikram</a></h3>
+  <div id="bio">
+      <h3>Fixing.Tinkering.Thinking.</h3>
+    <!--<small><p>Helping improve small business access to finance at <a href="https://www.sabhi.org">Sabhi.</a> Building cool stuff at <a href="https://www.thisishoola.com">Hoola.</a></p></small>-->
+  </div>
+  <div id="site-links">
+      <a href="/posts/posts.html">posts</a>
+      <a href="/ABOUTME.html">about me</a>
+    <!--<small><p>Helping improve small business access to finance at <a href="https://www.sabhi.org">Sabhi.</a> Building cool stuff at <a href="https://www.thisishoola.com">Hoola.</a></p></small>-->
+  </div>
+  <div id="social">
+    Follow me:
+    <div id="stalker">
+      <a title="mhikram on Github" href="https://github.com/mhikram">
+        <i class="fa fa-github-square"></i>
+      </a>
+      <a title="m_hamza_ikram on Twitter" href="https://twitter.com/m_hamza_ikram">
+        <i class="fa fa-twitter-square"></i>
+      </a>
+      </a>
+      <a title="RSS feed" id="atom" href="posts/rss.xml">
+        <i class="fa fa-rss-square"></i>
+      </a>
+    </div>
+  </div>
+</aside>

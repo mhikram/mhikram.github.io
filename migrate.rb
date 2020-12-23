@@ -1,6 +1,6 @@
 require 'fileutils'
 
-BASE = '../dmacvicar.github.io'.freeze
+BASE = '../mhikram.github.io'.freeze
 MD_IMAGE_REGEX = /\!\[(.*)\]\(\s*\{\{\s*site\.baseurl\s*\}\}(.+)\)/.freeze
 
 Dir.glob(File.join(Dir.pwd, 'posts/**/*.org')).each do |entry|

@@ -1,19 +1,16 @@
 @import'https://fonts.googleapis.com/css?family=Slabo+27px:400';
-@import'https://fonts.googleapis.com/css?family=Tinos:400';
 @import'https://fonts.googleapis.com/css?family=Limelight';
 @import'https://fonts.googleapis.com/css?family=Inter:400';
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400&display=swap');
 @import'https://fonts.googleapis.com/css?family=Montserrat:700';
-@import'https://fonts.googleapis.com/css?family=Source+Serif+Pro:300,400';
-@import'https://fonts.googleapis.com/css?family=Bitter';
-@import'https://fonts.googleapis.com/css?family=Domine';
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: #ddd;
-    background-color: #121212;
-    font-family: "Open Sans", sans;
+    color: #eee;
+    background-color: #191919;
+    font-family: "Inter", sans;
  }
 
 html {
@@ -28,19 +25,18 @@ html {
 @media (min-width: 768px) {
     html {
         font-size: 105%;
-        max-width: 44em;
+        max-width: 60%;
  } }
 
 h1, h2, h3, h4 {
     word-wrap: break-word;
     margin: 2.0rem 0 0.5rem 0;
-    color: #ddd;
-    font-family: "Domine", sans;
-    font-weight: normal;
+    color: #eee;
+    font-family: "Montserrat", sans;
 }
 
 a {
-    color: #ddd;
+    color: #eee;
     text-decoration: none;
  }
 a:hover, a:focus, a:active {
@@ -51,14 +47,8 @@ p {
     margin: 1em 0;
     line-height: 1.5;
  }
-
-.subtitle {
-    font-weight: normal;
-    font-size: 1.0;
-    color: #999;
-}
 p code {
-    background-color: #999;
+    background-color: #333;
     padding: 0.05em 0.2em;
     border: 1px solid #444;
  }
@@ -93,14 +83,14 @@ img {
 blockquote {
     padding-left: 1em;
     font-style: italic;
-    border-left: solid 2px #888;
+    border-left: solid 1px #3498db;
  }
 
 .timestamp {
-  font-family: "Inter", monospace;
+  font-family: monospace;
   color: #aaa;
   padding-right: 0.1em;
-  font-size: 80%;
+  font-size: 14px;
 }
 section.post-list li .timestamp:after {
   content: " »";
@@ -142,15 +132,18 @@ table, .highlight > pre, pre.example {
     overflow: auto;
     font-size: 0.85rem;
     font-family: monospace, monospace;
-    border: 1px dashed #444;
+    border: 1px dashed #3498db;
 }
 
 h1.title {
-    line-height:1.25em;
-    font-size: 275%;
     margin: 2.0rem 0 0.0rem 0;
 }
 
+.subtitle {
+    font-weight: normal;
+    font-size: 0.75em;
+    color: #666;
+}
 
 .tags {
     margin-top: -1.5rem;
@@ -179,33 +172,24 @@ figure figcaption {
 .footnote-definition .footnote-body {
     margin: 1em 0;
     padding: 0 1em;
-    border-top: 1px dashed #999;
+    border-top: 1px dashed #333;
 }
 .footnote-definition .footnote-body p:only-child {
     margin: 0.2em 0;
 }
 
 header {
-    display: block;
+    display: flex;
     justify-content: space-between;
-    color: #999;
 }
 
 header nav {
     display: flex;
     align-items: right;
     justify-content: space-between;
-    color: #999;
-}
-header a {
-    margin-left: 0rem;
-    font-weight: normal;
-    color: #999;
 }
 header a + a {
     margin-left: 1rem;
-    font-weight: normal;
-    color: #999;
 }
 
 .posts {
@@ -215,7 +199,7 @@ header a + a {
 .posts .post a {
     display: flex;
     padding: 0.5em 0;
-    color: #ddd;
+    color: #eee;
 }
 .posts .post a:hover, .posts .post a:focus, .posts .post a:active {
     text-decoration: none;
@@ -231,8 +215,8 @@ header a + a {
 footer {
   font-size: 75%;
   margin: 3rem auto;
-  color: #999;
-  border-top: 1px solid #999;
+  color: #333;
+  border-top: 1px solid #333;
   word-wrap: break-word;
 
 }
@@ -268,9 +252,9 @@ footer {
 .org-diary { /* diary */ color: #ff0000; }
 .org-diff-context { /* diff-context */ color: #7f7f7f; }
 .org-diff-file-header { /* diff-file-header */ background-color: #b3b3b3; font-weight: bold; }
-.org-diff-function { /* diff-function */ background-color: #dddccc; }
-.org-diff-header { /* diff-header */ background-color: #dddccc; }
-.org-diff-hunk-header { /* diff-hunk-header */ background-color: #dddccc; }
+.org-diff-function { /* diff-function */ background-color: #cccccc; }
+.org-diff-header { /* diff-header */ background-color: #cccccc; }
+.org-diff-hunk-header { /* diff-hunk-header */ background-color: #cccccc; }
 .org-diff-index { /* diff-index */ background-color: #b3b3b3; font-weight: bold; }
 .org-diff-nonexistent { /* diff-nonexistent */ background-color: #b3b3b3; font-weight: bold; }
 .org-diff-refine-change { /* diff-refine-change */ background-color: #d9d9d9; }
@@ -290,7 +274,7 @@ footer {
 .org-flyspell-incorrect { /* flyspell-incorrect */ color: #ff4500; font-weight: bold; text-decoration: underline; }
 .org-fringe { /* fringe */ background-color: #f2f2f2; }
 .org-function-name { /* font-lock-function-name-face */ color: teal; }
-.org-header-line { /* header-line */ color: #999333; background-color: #e5e5e5; }
+.org-header-line { /* header-line */ color: #333333; background-color: #e5e5e5; }
 .org-help-argument-name { /* help-argument-name */ font-style: italic; }
 .org-highlight { /* highlight */ background-color: #b4eeb4; }
 .org-holiday { /* holiday */ background-color: #ffc0cb; }

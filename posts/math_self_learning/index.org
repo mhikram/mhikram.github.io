@@ -1,0 +1,17 @@
+#+TITLE: (Un)-Learning math
+#+TAGS: Math
+* Why am I doing this?
+This has been inspired by a tweet thread by Dan Kaminsky.
+#+BEGIN_QUOTE
+I'm increasingly thinking that every functioning system has two forms: The abstraction that outsiders are led to believe, and the reality that insiders actually and carefully operate.You don't incrementally learn a system. You eventually unlearn its necessary lies. -- [[https://twitter.com/dakami/status/953444486209716225][Dan Kaminsky (@dakami)]]
+#+END_QUOTE
+
+Dan's insight made me realize that while I've always had a severe case of the imposter syndrome, I've never been close enough or knew enough about something to see it for the sham that it (supposedly) is. That made me think about everything that might have prevented me from seeing through the abstraction.
+* What will I be doing?
+Documenting my journey to unlearn and relearn math. Starting from first principles. I don't know where the journey is going to take me, but I'll be taking decision on what areas to focus on along the way.
+
+The following is the chronological list of books/resources I'll be working through:
+- (<2020-12-04 Fri> - ) [[https://www.amazon.com/Foundations-Mathematics-Ian-Stewart/dp/019870643X][The Foundations of Mathematics 2nd Edition by Ian Stewart]] [[https://github.com/mhikram/foundaition_of_math_2nd_edition][(Solutions)]]
+
+* How will I be doing it?
+I'll be enforcing a hard limit of finishing either all odd or even numbered exercises for one chapter for each book that I'm working through. Along the way I might take random digressions to add more detail where necessary, but the plan is to focus on foundational texts and gain deeper insight.

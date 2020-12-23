@@ -1,19 +1,7 @@
-@import'https://fonts.googleapis.com/css?family=Slabo+27px:400';
-@import'https://fonts.googleapis.com/css?family=Tinos:400';
-@import'https://fonts.googleapis.com/css?family=Limelight';
-@import'https://fonts.googleapis.com/css?family=Inter:400';
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond');
-@import'https://fonts.googleapis.com/css?family=Montserrat:700';
-@import'https://fonts.googleapis.com/css?family=Source+Serif+Pro:300,400';
-@import'https://fonts.googleapis.com/css?family=Bitter';
-@import'https://fonts.googleapis.com/css?family=Domine';
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: #ddd;
-    background-color: #121212;
-    font-family: "Open Sans", sans;
  }
 
 html {
@@ -27,20 +15,18 @@ html {
 
 @media (min-width: 768px) {
     html {
-        font-size: 105%;
-        max-width: 44em;
+        font-size: 125%;
+        max-width: 42em;
  } }
 
 h1, h2, h3, h4 {
-    word-wrap: break-word;
-    margin: 2.0rem 0 0.5rem 0;
-    color: #ddd;
-    font-family: "Domine", sans;
-    font-weight: normal;
-}
+    margin: 2.5rem 0 1.5rem 0;
+    line-height: 1.25;
+    color: #333;
+ }
 
 a {
-    color: #ddd;
+    color: #fa6432;
     text-decoration: none;
  }
 a:hover, a:focus, a:active {
@@ -51,16 +37,10 @@ p {
     margin: 1em 0;
     line-height: 1.5;
  }
-
-.subtitle {
-    font-weight: normal;
-    font-size: 1.0;
-    color: #999;
-}
 p code {
-    background-color: #999;
+    background-color: #eee;
     padding: 0.05em 0.2em;
-    border: 1px solid #444;
+    border: 1px solid #ccc;
  }
 
 ol, ul {
@@ -93,22 +73,9 @@ img {
 blockquote {
     padding-left: 1em;
     font-style: italic;
-    border-left: solid 2px #888;
+    border-left: solid 1px #fa6432;
  }
 
-.timestamp {
-  font-family: "Inter", monospace;
-  color: #aaa;
-  padding-right: 0.1em;
-  font-size: 80%;
-}
-section.post-list li .timestamp:after {
-  content: " »";
-}
-section.post-list ul {
-  list-style-type: none;
-    margin: 0em;
-}
 table {
     font-size: 1rem;
     text-align: left;
@@ -142,15 +109,18 @@ table, .highlight > pre, pre.example {
     overflow: auto;
     font-size: 0.85rem;
     font-family: monospace, monospace;
-    border: 1px dashed #444;
+    border: 1px dashed rgba(250, 100, 50, 0.5);
 }
 
-h1.title {
-    line-height:1.25em;
-    font-size: 275%;
-    margin: 2.0rem 0 0.0rem 0;
+.title {
+    font-size: 2.5em;
 }
 
+.subtitle {
+    font-weight: normal;
+    font-size: 0.75em;
+    color: #666;
+}
 
 .tags {
     margin-top: -1.5rem;
@@ -179,33 +149,24 @@ figure figcaption {
 .footnote-definition .footnote-body {
     margin: 1em 0;
     padding: 0 1em;
-    border-top: 1px dashed #999;
+    border: 1px dashed rgba(250, 100, 50, 0.3);
+    background-color: rgba(200, 200, 200, 0.2);
 }
 .footnote-definition .footnote-body p:only-child {
     margin: 0.2em 0;
 }
 
 header {
-    display: block;
+    display: flex;
     justify-content: space-between;
-    color: #999;
 }
-
 header nav {
     display: flex;
-    align-items: right;
+    align-items: center;
     justify-content: space-between;
-    color: #999;
-}
-header a {
-    margin-left: 0rem;
-    font-weight: normal;
-    color: #999;
 }
 header a + a {
     margin-left: 1rem;
-    font-weight: normal;
-    color: #999;
 }
 
 .posts {
@@ -215,33 +176,20 @@ header a + a {
 .posts .post a {
     display: flex;
     padding: 0.5em 0;
-    color: #ddd;
+    color: black;
 }
 .posts .post a:hover, .posts .post a:focus, .posts .post a:active {
     text-decoration: none;
+    background: rgba(200, 200, 200, 0.2);
 }
 .posts .post date {
     font-family: monospace, monospace;
     font-size: 0.8rem;
     vertical-align: middle;
     padding-right: 2rem;
-    color: #aaa;
+    color: grey;
 }
 
-footer {
-  font-size: 75%;
-  margin: 3rem auto;
-  color: #999;
-  border-top: 1px solid #999;
-  word-wrap: break-word;
-
-}
-.alignleft {
-	float: left;
-}
-.alignright {
-	float: right;
-}
 /* https://github.com/fniessen/org-html-themes/blob/master/styles/readtheorg/css/htmlize.css */
 .org-bold { /* bold */ font-weight: bold; }
 .org-bold-italic { /* bold-italic */ font-weight: bold; font-style: italic; }
@@ -268,9 +216,9 @@ footer {
 .org-diary { /* diary */ color: #ff0000; }
 .org-diff-context { /* diff-context */ color: #7f7f7f; }
 .org-diff-file-header { /* diff-file-header */ background-color: #b3b3b3; font-weight: bold; }
-.org-diff-function { /* diff-function */ background-color: #dddccc; }
-.org-diff-header { /* diff-header */ background-color: #dddccc; }
-.org-diff-hunk-header { /* diff-hunk-header */ background-color: #dddccc; }
+.org-diff-function { /* diff-function */ background-color: #cccccc; }
+.org-diff-header { /* diff-header */ background-color: #cccccc; }
+.org-diff-hunk-header { /* diff-hunk-header */ background-color: #cccccc; }
 .org-diff-index { /* diff-index */ background-color: #b3b3b3; font-weight: bold; }
 .org-diff-nonexistent { /* diff-nonexistent */ background-color: #b3b3b3; font-weight: bold; }
 .org-diff-refine-change { /* diff-refine-change */ background-color: #d9d9d9; }
@@ -290,7 +238,7 @@ footer {
 .org-flyspell-incorrect { /* flyspell-incorrect */ color: #ff4500; font-weight: bold; text-decoration: underline; }
 .org-fringe { /* fringe */ background-color: #f2f2f2; }
 .org-function-name { /* font-lock-function-name-face */ color: teal; }
-.org-header-line { /* header-line */ color: #999333; background-color: #e5e5e5; }
+.org-header-line { /* header-line */ color: #333333; background-color: #e5e5e5; }
 .org-help-argument-name { /* help-argument-name */ font-style: italic; }
 .org-highlight { /* highlight */ background-color: #b4eeb4; }
 .org-holiday { /* holiday */ background-color: #ffc0cb; }

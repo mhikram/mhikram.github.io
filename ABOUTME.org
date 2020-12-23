@@ -1,0 +1,11 @@
+#+title: Hi. I'm Hamza Ikram.
+#+author: Muhammad Hamza Ikram
+#+date: <2020-11-27 Thu>
+
+If you've made it here you've probably heard me speak at an event or on some media outlet. I do that sometimes. The rest of the time I'm trying to build inclusive financial services infrastructure for developing economies.
+
+I've been around a few different blocks. Failed more often than succeeded. This blog is here to let me talk about things that interest me and start conversations.
+
+I'll also (sometimes) document my adventures in trying to self-learn a bunch of things.
+
+(Oh and I'm the kind of person that has suddenly fallen hard for Org-Mode. Emacs not so much. That might be your cue to leave or be very very intrigued)

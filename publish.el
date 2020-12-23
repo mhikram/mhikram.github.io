@@ -281,7 +281,7 @@
          :base-extension "org"
          :publishing-directory "./public"
          :publishing-function 'duncan/org-rss-publish-to-rss
-         :html-link-home "http://duncan.codes/"
+         :html-link-home "https://mhikram.github.io/"
          :html-link-use-abs-url t)
    (list "site"
          :base-directory "./"
@@ -323,7 +323,7 @@
    (list "assets"
          :base-directory "./"
          :exclude (regexp-opt '("assets" "public"))
-         :include '("CNAME" "keybase.txt" "LICENSE" ".nojekyll" "publish.el")
+         :include '("LICENSE" ".nojekyll" "publish.el")
          :recursive t
          :base-extension (regexp-opt '("jpg" "gif" "png" "js" "svg" "css"))
          :publishing-directory "./public"
@@ -340,7 +340,7 @@
         (org-publish-project-alist       duncan--publish-project-alist)
         ;; deactivate cache as it does not take the publish.el file into account
         (user-full-name "Muhammad Hamza Ikram")
-        (user-mail-address "duncan@gmail.com")
+        (user-mail-address "mhikram1@gmail.com")
         (org-src-fontify-natively t)
         (org-publish-cache nil)
         (org-publish-use-timestamps-flag nil)
@@ -365,10 +365,10 @@
            ("faCode" "\\faCode" nil "<i aria-hidden='true' class='fa fa-code'></i>" "" "" "")
            ("faGithub" "\\faGithub" nil "<i aria-hidden='true' class='fa fa-github'></i>" "" "" "")
            ("faGraduationCap" "\\faGraduationCap" nil "<i aria-hidden='true' class='fa fa-graduation-cap'></i>" "" "" "")
+           ("faEye" "\\faGraduationCap" nil "<i aria-hidden='true' class='fa fa-eye'></i>" "" "" "")
            ("faImage" "\\faImage" nil "<i aria-hidden='true' class='fa fa-image'></i>" "" "" ""))))
         (org-html-htmlize-output-type       'css)
         (org-plantuml-jar-path (-first 'file-exists-p
-                                       ; openSUSE, Ubuntu
                                        '("/usr/share/java/plantuml.jar" "/usr/share/plantuml/plantuml.jar")))
         (org-confirm-babel-evaluate
          (lambda (lang body)
