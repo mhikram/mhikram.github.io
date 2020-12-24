@@ -7,22 +7,23 @@
 @import'https://fonts.googleapis.com/css?family=Source+Serif+Pro:300,400';
 @import'https://fonts.googleapis.com/css?family=Bitter';
 @import'https://fonts.googleapis.com/css?family=Domine';
+@import'https://fonts.googleapis.com/css?family=Literata';
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     color: #ddd;
     background-color: #121212;
-    font-family: "Open Sans", sans;
+    font-family: "Literata", "Open Sans", sans;
  }
 
 html {
     overflow-y: scroll;
     height: 100%;
-    font: 100%/1.5 sans-serif;
+    font: 100%/1.75 sans-serif;
     word-wrap: break-word;
     margin: 0 auto;
-    padding: 1.5em;
+    padding: 1.0em;
  }
 
 @media (min-width: 768px) {
@@ -33,10 +34,10 @@ html {
 
 h1, h2, h3, h4 {
     word-wrap: break-word;
-    margin: 2.0rem 0 0.5rem 0;
+    margin: 2.5rem 0 0.5rem 0;
     color: #ddd;
-    font-family: "Domine", sans;
-    font-weight: normal;
+    font-family: "Literata", sans;
+    font-weight: medium;
 }
 
 a {
@@ -147,7 +148,7 @@ table, .highlight > pre, pre.example {
 
 h1.title {
     line-height:1.25em;
-    font-size: 275%;
+    font-size: 250%;
     margin: 2.0rem 0 0.0rem 0;
 }
 
