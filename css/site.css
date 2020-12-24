@@ -14,13 +14,13 @@
     padding: 0;
     color: #ddd;
     background-color: #121212;
-    font-family: "Literata", "Open Sans", sans;
+    font-family: "Literata", serif;
  }
 
 html {
     overflow-y: scroll;
     height: 100%;
-    font: 100%/1.75 sans-serif;
+    font: 110%/1.75 sans-serif;
     word-wrap: break-word;
     margin: 0 auto;
     padding: 1.0em;
@@ -28,7 +28,7 @@ html {
 
 @media (min-width: 768px) {
     html {
-        font-size: 105%;
+        font-size: 100%;
         max-width: 44em;
  } }
 
@@ -38,6 +38,7 @@ h1, h2, h3, h4 {
     color: #ddd;
     font-family: "Literata", sans;
     font-weight: medium;
+    line-height:1.25em;
 }
 
 a {
@@ -148,7 +149,7 @@ table, .highlight > pre, pre.example {
 
 h1.title {
     line-height:1.25em;
-    font-size: 250%;
+    font-size: 225%;
     margin: 2.0rem 0 0.0rem 0;
 }
 
