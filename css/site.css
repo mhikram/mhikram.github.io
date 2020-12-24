@@ -1,25 +1,26 @@
-@import'https://fonts.googleapis.com/css?family=Literata';
+@import'https://fonts.googleapis.com/css?family=Domine';
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     color: #ddd;
     background-color: #121212;
-    font-family: "Literata", serif;
+    font-family: "Domine", serif;
  }
 
 html {
     overflow-y: scroll;
     height: 100%;
-    font: 110%/1.75 sans-serif;
+    font: 100%/1.75 sans-serif;
     word-wrap: break-word;
+    font-weight: normal;
     margin: 0 auto;
     padding: 1.0em;
  }
 
 @media (min-width: 768px) {
     html {
-        font-size: 100%;
+        font-size: 120%;
         max-width: 44em;
  } }
 
@@ -27,8 +28,8 @@ h1, h2, h3, h4 {
     word-wrap: break-word;
     margin: 2.5rem 0 0.5rem 0;
     color: #ddd;
-    font-family: "Literata", sans;
-    font-weight: medium;
+    font-family: "Domine", sans;
+    font-weight: normal;
     line-height:1.25em;
 }
 
