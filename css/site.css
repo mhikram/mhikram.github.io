@@ -29,7 +29,7 @@ h1, h2, h3, h4 {
     margin: 2.5rem 0 0.5rem 0;
     color: #ddd;
     font-family: "Domine", sans;
-    font-weight: normal;
+    font-weight: medium;
     line-height:1.25em;
 }
 
@@ -141,8 +141,9 @@ table, .highlight > pre, pre.example {
 
 h1.title {
     line-height:1.25em;
-    font-size: 225%;
-    margin: 2.0rem 0 0.0rem 0;
+    font-size: 240%;
+    font-weight: normal;
+    margin: 2.5rem 0 0.0rem 0;
 }
 
 
