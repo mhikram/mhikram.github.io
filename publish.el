@@ -340,7 +340,7 @@
         (org-publish-project-alist       duncan--publish-project-alist)
         ;; deactivate cache as it does not take the publish.el file into account
         (user-full-name "Muhammad Hamza Ikram")
-        (user-mail-address "mhikram1@gmail.com")
+        (user-mail-address "")
         (org-src-fontify-natively t)
         (org-publish-cache nil)
         (org-publish-use-timestamps-flag nil)
