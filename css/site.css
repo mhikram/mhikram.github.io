@@ -1,17 +1,19 @@
+@import'https://fonts.googleapis.com/css?family=Lato';
 @import'https://fonts.googleapis.com/css?family=Domine';
+@import'https://fonts.googleapis.com/css?family=Libre+Baskerville';
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     color: #ddd;
-    background-color: #121212;
-    font-family: "Domine", serif;
+    background-color: #181818;
+    font-family: "Lato", sans;
+    font-size: 1.10rem;
  }
 
 html {
     overflow-y: scroll;
     height: 100%;
-    font: 100%/1.75 sans-serif;
     word-wrap: break-word;
     font-weight: normal;
     margin: 0 auto;
@@ -20,7 +22,7 @@ html {
 
 @media (min-width: 768px) {
     html {
-        font-size: 120%;
+        font-size: 100%;
         max-width: 44em;
  } }
 
@@ -28,9 +30,10 @@ h1, h2, h3, h4 {
     word-wrap: break-word;
     margin: 2.5rem 0 0.5rem 0;
     color: #ddd;
-    font-family: "Domine", sans;
-    font-weight: medium;
-    line-height:1.25em;
+    font-family: "Libre Baskerville", sans;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.25em;
 }
 
 a {
@@ -91,7 +94,7 @@ blockquote {
  }
 
 .timestamp {
-  font-family: "Inter", monospace;
+  font-family: monospace;
   color: #aaa;
   padding-right: 0.1em;
   font-size: 80%;
@@ -141,7 +144,7 @@ table, .highlight > pre, pre.example {
 
 h1.title {
     line-height:1.25em;
-    font-size: 240%;
+    font-size: 200%;
     font-weight: normal;
     margin: 2.5rem 0 0.0rem 0;
 }
